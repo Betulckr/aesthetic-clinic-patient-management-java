@@ -1,32 +1,15 @@
-# Prerequisites
-*.d
+# Compiled Java classes
+bin/
+*.class
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Program tarafından çalışırken otomatik oluşturulan rapor dosyası
+Hastane.txt
 
-# Precompiled Headers
-*.gch
-*.pch
+# Eclipse
+.settings/
+.classpath
+.project
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# OS
+.DS_Store
+Thumbs.db
